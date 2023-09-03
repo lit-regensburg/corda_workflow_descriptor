@@ -1,0 +1,2 @@
+# Description 
+A workflow descriptor is a file describing a single reproducible run. It specifies a variable number of input/output files, parameters for the workflow, the specific container image for the workflow and the repository where the analysis can be found. It also specifies some irods_environment fields, required for connecting to the irods data store from the container. The workflow descriptors structure is defined via linkML and can be verified.
